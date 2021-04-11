@@ -1,0 +1,95 @@
+.left-area{
+	background-color: #fff;
+	padding: 15px;
+	position: relative;
+	overflow: hidden;
+}
+.left-area::before{
+	position: absolute;
+	content: "Profile";
+    background-color: #f93d67;
+    top: 0;
+    left: -35px;
+    width: 150px;
+    height: 40px;
+    transform: rotate(-30deg);
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+}
+.right-area{
+	background-color: #fff;
+	padding: 15px;
+	position: relative;
+	overflow: hidden;
+}
+.right-area::before{
+	position: absolute;
+	content: "Details";
+    background-color: #7047d7;
+    top: 0;
+    right: -35px;
+    width: 150px;
+    height: 40px;
+    transform: rotate(30deg);
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+}
+.contents{
+	margin-top: 50px;
+}
+.user-img{
+	width: 120px;
+	height: 120px;
+	margin: 0 auto;
+	border-radius: 50%;
+}
+.first-li{
+	margin-top: 20px;
+}
+
+.list-group-item:hover{
+ background-color: #7047d7;
+}
+.list-group-item:hover a{
+	color: #fff;
+	text-decoration: none;
+}
+.logout-btn{
+	border: solid 1px #fff;
+	border-radius: 20px;
+}
+.logout-btn:hover{
+	background-color: red;
+	color: #fff;
+}
+.all-msg{
+	text-align: center;
+	border: 1px solid #fff;
+}
+.bio-text{
+	border-radius: 10px;
+	border-color: #ccddee;
+}
+.user-info{
+	margin-top: 20px;
+}
+.user-info span{
+	color: #999;
+}
+.green-per{
+	color: green;
+	font-size: 20px;
+	font-weight: 600;
+}
+.orange-per{
+	color: orange;
+	font-size: 20px;
+	font-weight: 600;
+}
+.text-bio{
+	padding: 20px;
+	border: 1px solid #7047d7;
+	border-radius: 6px;
+}
