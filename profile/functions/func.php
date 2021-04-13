@@ -67,7 +67,7 @@ function update_picture(){
 		 $query->execute(array($pic_name, $_SESSION['user_id']));
 		 if ($query) {
 			 $_SESSION['updated'] = "<i class='fas fa-check-circle'></i>Profile picture updated successfully!";
-			 header("location: index.php");
+			//  header("location: index.php");
 		 }else{
 			 echo "There is un error updating the picture";
 		 }
